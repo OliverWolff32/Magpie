@@ -40,6 +40,18 @@ public class Magpie2
         {
             response = "Why so negative?";
         }
+        else if (statement.indexOf("computer") >= 0)
+        {
+            response = "Wait... I'm a computer!";
+        }
+        else if (statement.indexOf("Oliver") >= 0)
+        {
+            response = "Oliver is a smart fella";
+        }
+        else if (statement.indexOf("John") >= 0) 
+        {
+            response = "John is a fart smella";
+        }
         else if (statement.indexOf("mother") >= 0
                 || statement.indexOf("father") >= 0
                 || statement.indexOf("sister") >= 0
